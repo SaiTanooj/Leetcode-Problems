@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    vector<int>arr={2,2,2,2,5,5,5,8};
+    vector<int>arr={11,13,17,23,29,31,7,5,2,3};
     int k=3;
     int t=4;
     int sum=0;
