@@ -5,7 +5,7 @@ int main(){
     int k=3;
     vector<int>res;
     int count=1;
-    for(int i=1;i<3;i++){
+    for(int i=1;i<k;i++){
         if(arr[i]==arr[i-1]+1){
             count++;
         }
@@ -17,7 +17,7 @@ int main(){
         count=1;
     }
     int i=1;
-    int j=3;
+    int j=k;
     while(j<arr.size()){
         if(arr[j-1]+1==arr[j]){
             count++;
