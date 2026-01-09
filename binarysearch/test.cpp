@@ -1,0 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    cout<<ceil(1.0/2.0)<<endl;
+}
